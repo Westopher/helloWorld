@@ -21,7 +21,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDe-l8-tgS">
                                 <frame key="frameInset" minX="120" minY="269" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Hello World"/>
+                                <color key="backgroundColor" red="0.97866398096084595" green="0.09745248407125473" blue="0.0085011422634124756" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Hello World">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="71s-gG-6Et"/>
                                 </connections>
